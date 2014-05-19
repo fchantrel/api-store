@@ -1,0 +1,8 @@
+{
+    "level":"debug",
+    "dir":"/home/fchantrel/applications/RAML/v2/api-store/logs",
+    "log_file":"/api-store.log",
+    "exception_file":"/api-store-exceptions.log",
+    "max_size":50000000,
+    "max_files":5
+}

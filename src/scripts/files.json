@@ -1,0 +1,57 @@
+[
+{
+  path: "/example1.raml",
+  name: "example1.raml",
+  type: "file",
+  content: "theContentOfTheRamlFile1",
+  meta: {
+    created: 1389902933
+  }
+},
+{
+  path: "/example2.raml",
+  name: "example2.raml",
+  type: "file",
+  content: "theContentOfTheRamlFile1",
+  meta: {
+    created: 1389902933
+  }
+},
+{
+  path: "/samples",
+  name: "samples",
+  type: "folder",
+  children: [
+    { 
+      path: "/samples/example.raml",
+      name: "example.raml",
+      type: "file",
+      content: "content",
+      meta: {
+    	created: 1389902933
+  	  }
+    },
+    { 
+      path: "/samples/subFolder"
+      name: "subFolder",
+      type: "folder",
+      children: [],
+      meta: {
+    	created: 1389902933
+  	  }
+    }
+  ]
+  meta: {
+    created: 1389903212
+  }
+},
+{
+  path: "/samples/folderA/example.raml",
+  name: "example.raml",
+  type: "file",
+  content: "here goes the content of the raml file",
+  meta: {
+    created: 1389903361
+  }
+}
+]

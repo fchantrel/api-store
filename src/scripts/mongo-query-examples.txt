@@ -1,0 +1,8 @@
+# Find files by path
+db.files.find({"path" : "/example1.raml"})
+
+# Find all files with offset and limit
+db.files.find({}).limit(5)
+
+# Insert files
+db.files.insert({path: "/example1.raml", name: "example1.raml", type: "file", content: "theContentOfTheRamlFile1", meta: {created: 1389902933}})
