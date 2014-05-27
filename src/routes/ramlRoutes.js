@@ -58,7 +58,10 @@ var _findFileContentById = function(req, res) {
 	var id = req.params.id;
 	ramlRepo.findById(id, function(file) {
 		res.header("Access-Control-Allow-Origin", "*");
-		res.status(200).send(file.content);
+		res.setHeader('content-type', 'text/plain');
+		res.charset = 'utf-8';
+    		res.contentType('text');
+		res.status(200).send(decodeURI(file.content));
 	});
 };
 
